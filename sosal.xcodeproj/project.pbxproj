@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401217AF2B6E594400949903 /* sosalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217AE2B6E594400949903 /* sosalApp.swift */; };
+		401217B12B6E594400949903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217B02B6E594400949903 /* ContentView.swift */; };
+		401217B32B6E594600949903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401217B22B6E594600949903 /* Assets.xcassets */; };
+		401217B62B6E594600949903 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401217B52B6E594600949903 /* Preview Assets.xcassets */; };
+		401217C02B6E594600949903 /* sosalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217BF2B6E594600949903 /* sosalTests.swift */; };
+		401217CA2B6E594600949903 /* sosalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217C92B6E594600949903 /* sosalUITests.swift */; };
+		401217CC2B6E594600949903 /* sosalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217CB2B6E594600949903 /* sosalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401217BC2B6E594600949903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401217A32B6E594400949903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401217AA2B6E594400949903;
+			remoteInfo = sosal;
+		};
+		401217C62B6E594600949903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401217A32B6E594400949903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401217AA2B6E594400949903;
+			remoteInfo = sosal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		401217AB2B6E594400949903 /* sosal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sosal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		401217AE2B6E594400949903 /* sosalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalApp.swift; sourceTree = "<group>"; };
+		401217B02B6E594400949903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		401217B22B6E594600949903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401217B52B6E594600949903 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		401217BB2B6E594600949903 /* sosalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sosalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401217BF2B6E594600949903 /* sosalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalTests.swift; sourceTree = "<group>"; };
+		401217C52B6E594600949903 /* sosalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sosalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401217C92B6E594600949903 /* sosalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalUITests.swift; sourceTree = "<group>"; };
+		401217CB2B6E594600949903 /* sosalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401217A82B6E594400949903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217B82B6E594600949903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217C22B6E594600949903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401217A22B6E594400949903 = {
+			isa = PBXGroup;
+			children = (
+				401217AD2B6E594400949903 /* sosal */,
+				401217BE2B6E594600949903 /* sosalTests */,
+				401217C82B6E594600949903 /* sosalUITests */,
+				401217AC2B6E594400949903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		401217AC2B6E594400949903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401217AB2B6E594400949903 /* sosal.app */,
+				401217BB2B6E594600949903 /* sosalTests.xctest */,
+				401217C52B6E594600949903 /* sosalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401217AD2B6E594400949903 /* sosal */ = {
+			isa = PBXGroup;
+			children = (
+				401217AE2B6E594400949903 /* sosalApp.swift */,
+				401217B02B6E594400949903 /* ContentView.swift */,
+				401217B22B6E594600949903 /* Assets.xcassets */,
+				401217B42B6E594600949903 /* Preview Content */,
+			);
+			path = sosal;
+			sourceTree = "<group>";
+		};
+		401217B42B6E594600949903 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				401217B52B6E594600949903 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		401217BE2B6E594600949903 /* sosalTests */ = {
+			isa = PBXGroup;
+			children = (
+				401217BF2B6E594600949903 /* sosalTests.swift */,
+			);
+			path = sosalTests;
+			sourceTree = "<group>";
+		};
+		401217C82B6E594600949903 /* sosalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				401217C92B6E594600949903 /* sosalUITests.swift */,
+				401217CB2B6E594600949903 /* sosalUITestsLaunchTests.swift */,
+			);
+			path = sosalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401217AA2B6E594400949903 /* sosal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401217CF2B6E594600949903 /* Build configuration list for PBXNativeTarget "sosal" */;
+			buildPhases = (
+				401217A72B6E594400949903 /* Sources */,
+				401217A82B6E594400949903 /* Frameworks */,
+				401217A92B6E594400949903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sosal;
+			productName = sosal;
+			productReference = 401217AB2B6E594400949903 /* sosal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		401217BA2B6E594600949903 /* sosalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401217D22B6E594600949903 /* Build configuration list for PBXNativeTarget "sosalTests" */;
+			buildPhases = (
+				401217B72B6E594600949903 /* Sources */,
+				401217B82B6E594600949903 /* Frameworks */,
+				401217B92B6E594600949903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401217BD2B6E594600949903 /* PBXTargetDependency */,
+			);
+			name = sosalTests;
+			productName = sosalTests;
+			productReference = 401217BB2B6E594600949903 /* sosalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		401217C42B6E594600949903 /* sosalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401217D52B6E594600949903 /* Build configuration list for PBXNativeTarget "sosalUITests" */;
+			buildPhases = (
+				401217C12B6E594600949903 /* Sources */,
+				401217C22B6E594600949903 /* Frameworks */,
+				401217C32B6E594600949903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401217C72B6E594600949903 /* PBXTargetDependency */,
+			);
+			name = sosalUITests;
+			productName = sosalUITests;
+			productReference = 401217C52B6E594600949903 /* sosalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401217A32B6E594400949903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					401217AA2B6E594400949903 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					401217BA2B6E594600949903 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 401217AA2B6E594400949903;
+					};
+					401217C42B6E594600949903 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 401217AA2B6E594400949903;
+					};
+				};
+			};
+			buildConfigurationList = 401217A62B6E594400949903 /* Build configuration list for PBXProject "sosal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 401217A22B6E594400949903;
+			productRefGroup = 401217AC2B6E594400949903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401217AA2B6E594400949903 /* sosal */,
+				401217BA2B6E594600949903 /* sosalTests */,
+				401217C42B6E594600949903 /* sosalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401217A92B6E594400949903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401217B62B6E594600949903 /* Preview Assets.xcassets in Resources */,
+				401217B32B6E594600949903 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217B92B6E594600949903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217C32B6E594600949903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401217A72B6E594400949903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401217B12B6E594400949903 /* ContentView.swift in Sources */,
+				401217AF2B6E594400949903 /* sosalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217B72B6E594600949903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401217C02B6E594600949903 /* sosalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401217C12B6E594600949903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401217CA2B6E594600949903 /* sosalUITests.swift in Sources */,
+				401217CC2B6E594600949903 /* sosalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401217BD2B6E594600949903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401217AA2B6E594400949903 /* sosal */;
+			targetProxy = 401217BC2B6E594600949903 /* PBXContainerItemProxy */;
+		};
+		401217C72B6E594600949903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401217AA2B6E594400949903 /* sosal */;
+			targetProxy = 401217C62B6E594600949903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		401217CD2B6E594600949903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		401217CE2B6E594600949903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401217D02B6E594600949903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sosal/Preview Content\"";
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		401217D12B6E594600949903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sosal/Preview Content\"";
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		401217D32B6E594600949903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sosal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sosal";
+			};
+			name = Debug;
+		};
+		401217D42B6E594600949903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sosal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sosal";
+			};
+			name = Release;
+		};
+		401217D62B6E594600949903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sosal;
+			};
+			name = Debug;
+		};
+		401217D72B6E594600949903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7ZY24M89N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cone.sosalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sosal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401217A62B6E594400949903 /* Build configuration list for PBXProject "sosal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401217CD2B6E594600949903 /* Debug */,
+				401217CE2B6E594600949903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401217CF2B6E594600949903 /* Build configuration list for PBXNativeTarget "sosal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401217D02B6E594600949903 /* Debug */,
+				401217D12B6E594600949903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401217D22B6E594600949903 /* Build configuration list for PBXNativeTarget "sosalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401217D32B6E594600949903 /* Debug */,
+				401217D42B6E594600949903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401217D52B6E594600949903 /* Build configuration list for PBXNativeTarget "sosalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401217D62B6E594600949903 /* Debug */,
+				401217D72B6E594600949903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401217A32B6E594400949903 /* Project object */;
+}
