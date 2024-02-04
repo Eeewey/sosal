@@ -14,6 +14,7 @@
 		401217C02B6E594600949903 /* sosalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217BF2B6E594600949903 /* sosalTests.swift */; };
 		401217CA2B6E594600949903 /* sosalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217C92B6E594600949903 /* sosalUITests.swift */; };
 		401217CC2B6E594600949903 /* sosalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217CB2B6E594600949903 /* sosalUITestsLaunchTests.swift */; };
+		401217D92B6E658C00949903 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401217D82B6E658C00949903 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		401217AB2B6E594400949903 /* sosal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sosal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401217AE2B6E594400949903 /* sosalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalApp.swift; sourceTree = "<group>"; };
-		401217B02B6E594400949903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		401217B02B6E594400949903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		401217B22B6E594600949903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401217B52B6E594600949903 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		401217BB2B6E594600949903 /* sosalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sosalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		401217C52B6E594600949903 /* sosalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sosalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401217C92B6E594600949903 /* sosalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalUITests.swift; sourceTree = "<group>"; };
 		401217CB2B6E594600949903 /* sosalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		401217D82B6E658C00949903 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				401217B02B6E594400949903 /* ContentView.swift */,
 				401217B22B6E594600949903 /* Assets.xcassets */,
 				401217B42B6E594600949903 /* Preview Content */,
+				401217D82B6E658C00949903 /* Main.swift */,
 			);
 			path = sosal;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401217D92B6E658C00949903 /* Main.swift in Sources */,
 				401217B12B6E594400949903 /* ContentView.swift in Sources */,
 				401217AF2B6E594400949903 /* sosalApp.swift in Sources */,
 			);
